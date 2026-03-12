@@ -1,0 +1,206 @@
+[
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "cities",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.8166666666666667,
+      "f1": 0.8083623693379791,
+      "precision": 0.8467153284671532,
+      "recall": 0.7733333333333333,
+      "auroc": 0.8927555555555555,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "cities",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.5833333333333334,
+      "f1": 0.5487364620938628,
+      "precision": 0.5984251968503937,
+      "recall": 0.5066666666666667,
+      "auroc": 0.6010444444444444,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "neg_cities",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.8066666666666666,
+      "f1": 0.8152866242038217,
+      "precision": 0.7804878048780488,
+      "recall": 0.8533333333333334,
+      "auroc": 0.8806666666666667,
+      "n_eval": 300,
+      "eval_hash": "sha256:d9cce3adc1ba4e9c7401399afb3e403c6dd3f9fca232d6fbb927c63cd2f079e4"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "neg_cities",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.5633333333333334,
+      "f1": 0.5814696485623003,
+      "precision": 0.558282208588957,
+      "recall": 0.6066666666666667,
+      "auroc": 0.5977777777777777,
+      "n_eval": 300,
+      "eval_hash": "sha256:d9cce3adc1ba4e9c7401399afb3e403c6dd3f9fca232d6fbb927c63cd2f079e4"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "sp_en_trans",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.5972222222222222,
+      "f1": 0.5671641791044776,
+      "precision": 0.6129032258064516,
+      "recall": 0.5277777777777778,
+      "auroc": 0.5964506172839505,
+      "n_eval": 72,
+      "eval_hash": "sha256:20e4dec1b8225ce46aceae422df99fd84a9f7ee4cf32a54415aab9316163bcb6"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "sp_en_trans",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.4861111111111111,
+      "f1": 0.5194805194805194,
+      "precision": 0.4878048780487805,
+      "recall": 0.5555555555555556,
+      "auroc": 0.4992283950617284,
+      "n_eval": 72,
+      "eval_hash": "sha256:20e4dec1b8225ce46aceae422df99fd84a9f7ee4cf32a54415aab9316163bcb6"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "neg_sp_en_trans",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.5416666666666666,
+      "f1": 0.5822784810126582,
+      "precision": 0.5348837209302325,
+      "recall": 0.6388888888888888,
+      "auroc": 0.5686728395061729,
+      "n_eval": 72,
+      "eval_hash": "sha256:242bd9b29e690cf82935955fa0cc3f0a06ec0b29317f0243f9068d83ebe0c83e"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "neg_sp_en_trans",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.5277777777777778,
+      "f1": 0.46875,
+      "precision": 0.5357142857142857,
+      "recall": 0.4166666666666667,
+      "auroc": 0.5270061728395061,
+      "n_eval": 72,
+      "eval_hash": "sha256:242bd9b29e690cf82935955fa0cc3f0a06ec0b29317f0243f9068d83ebe0c83e"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "larger_than",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.9949494949494949,
+      "f1": 0.9949238578680203,
+      "precision": 1.0,
+      "recall": 0.98989898989899,
+      "auroc": 1.0,
+      "n_eval": 396,
+      "eval_hash": "sha256:dfff0237de05b45c8239ea3db1737da926b3b46da0969b663ae370d85b0611cc"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "larger_than",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.76010101010101,
+      "f1": 0.7677261613691931,
+      "precision": 0.7440758293838863,
+      "recall": 0.7929292929292929,
+      "auroc": 0.8226711560044893,
+      "n_eval": 396,
+      "eval_hash": "sha256:dfff0237de05b45c8239ea3db1737da926b3b46da0969b663ae370d85b0611cc"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "smaller_than",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.98989898989899,
+      "f1": 0.98989898989899,
+      "precision": 0.98989898989899,
+      "recall": 0.98989898989899,
+      "auroc": 0.9995408631772268,
+      "n_eval": 396,
+      "eval_hash": "sha256:546af552622d90b1e54d88d3111f68aa201178f0458267da51ecbe393443e821"
+    }
+  },
+  {
+    "model": "microsoft/bitnet-b1.58-2B-4T",
+    "dataset": "smaller_than",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.7575757575757576,
+      "f1": 0.7433155080213903,
+      "precision": 0.7897727272727273,
+      "recall": 0.702020202020202,
+      "auroc": 0.8292011019283746,
+      "n_eval": 396,
+      "eval_hash": "sha256:546af552622d90b1e54d88d3111f68aa201178f0458267da51ecbe393443e821"
+    }
+  }
+]
