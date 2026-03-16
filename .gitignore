@@ -18,3 +18,10 @@ data
 
 # OS
 .DS_Store
+
+# Auto-generated experiments
+autoresearch/
+autoresearch*.tar.gz
+
+# Claude Code
+.claude/

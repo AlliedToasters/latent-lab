@@ -1,0 +1,206 @@
+[
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "cities",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.9966666666666667,
+      "f1": 0.9966777408637874,
+      "precision": 0.9933774834437086,
+      "recall": 1.0,
+      "auroc": 0.9997333333333333,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "cities",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.98,
+      "f1": 0.9803921568627451,
+      "precision": 0.9615384615384616,
+      "recall": 1.0,
+      "auroc": 0.9932888888888889,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "neg_cities",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.9966666666666667,
+      "f1": 0.9966777408637874,
+      "precision": 0.9933774834437086,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "n_eval": 300,
+      "eval_hash": "sha256:d9cce3adc1ba4e9c7401399afb3e403c6dd3f9fca232d6fbb927c63cd2f079e4"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "neg_cities",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.9933333333333333,
+      "f1": 0.9932885906040269,
+      "precision": 1.0,
+      "recall": 0.9866666666666667,
+      "auroc": 0.9998666666666667,
+      "n_eval": 300,
+      "eval_hash": "sha256:d9cce3adc1ba4e9c7401399afb3e403c6dd3f9fca232d6fbb927c63cd2f079e4"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "sp_en_trans",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.9861111111111112,
+      "f1": 0.9859154929577465,
+      "precision": 1.0,
+      "recall": 0.9722222222222222,
+      "auroc": 1.0,
+      "n_eval": 72,
+      "eval_hash": "sha256:20e4dec1b8225ce46aceae422df99fd84a9f7ee4cf32a54415aab9316163bcb6"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "sp_en_trans",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.9861111111111112,
+      "f1": 0.9859154929577465,
+      "precision": 1.0,
+      "recall": 0.9722222222222222,
+      "auroc": 1.0,
+      "n_eval": 72,
+      "eval_hash": "sha256:20e4dec1b8225ce46aceae422df99fd84a9f7ee4cf32a54415aab9316163bcb6"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "neg_sp_en_trans",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "n_eval": 72,
+      "eval_hash": "sha256:242bd9b29e690cf82935955fa0cc3f0a06ec0b29317f0243f9068d83ebe0c83e"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "neg_sp_en_trans",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "n_eval": 72,
+      "eval_hash": "sha256:242bd9b29e690cf82935955fa0cc3f0a06ec0b29317f0243f9068d83ebe0c83e"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "larger_than",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "n_eval": 396,
+      "eval_hash": "sha256:dfff0237de05b45c8239ea3db1737da926b3b46da0969b663ae370d85b0611cc"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "larger_than",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.9848484848484849,
+      "f1": 0.9849246231155779,
+      "precision": 0.98,
+      "recall": 0.98989898989899,
+      "auroc": 0.9996939087848179,
+      "n_eval": 396,
+      "eval_hash": "sha256:dfff0237de05b45c8239ea3db1737da926b3b46da0969b663ae370d85b0611cc"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "smaller_than",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "n_eval": 396,
+      "eval_hash": "sha256:546af552622d90b1e54d88d3111f68aa201178f0458267da51ecbe393443e821"
+    }
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "smaller_than",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.9570707070707071,
+      "f1": 0.9556135770234987,
+      "precision": 0.9891891891891892,
+      "recall": 0.9242424242424242,
+      "auroc": 0.9939164370982553,
+      "n_eval": 396,
+      "eval_hash": "sha256:546af552622d90b1e54d88d3111f68aa201178f0458267da51ecbe393443e821"
+    }
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "cities",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.9866666666666667,
+      "f1": 0.9867549668874173,
+      "precision": 0.9802631578947368,
+      "recall": 0.9933333333333333,
+      "auroc": 0.9972,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "cities",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.9466666666666667,
+      "f1": 0.948051948051948,
+      "precision": 0.9240506329113924,
+      "recall": 0.9733333333333334,
+      "auroc": 0.9707333333333333,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "neg_cities",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.98,
+      "f1": 0.9798657718120806,
+      "precision": 0.9864864864864865,
+      "recall": 0.9733333333333334,
+      "auroc": 0.997688888888889,
+      "n_eval": 300,
+      "eval_hash": "sha256:d9cce3adc1ba4e9c7401399afb3e403c6dd3f9fca232d6fbb927c63cd2f079e4"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "neg_cities",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.94,
+      "f1": 0.9403973509933775,
+      "precision": 0.9342105263157895,
+      "recall": 0.9466666666666667,
+      "auroc": 0.9647555555555556,
+      "n_eval": 300,
+      "eval_hash": "sha256:d9cce3adc1ba4e9c7401399afb3e403c6dd3f9fca232d6fbb927c63cd2f079e4"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "sp_en_trans",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.9583333333333334,
+      "f1": 0.958904109589041,
+      "precision": 0.9459459459459459,
+      "recall": 0.9722222222222222,
+      "auroc": 0.9938271604938271,
+      "n_eval": 72,
+      "eval_hash": "sha256:20e4dec1b8225ce46aceae422df99fd84a9f7ee4cf32a54415aab9316163bcb6"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "sp_en_trans",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.9583333333333334,
+      "f1": 0.958904109589041,
+      "precision": 0.9459459459459459,
+      "recall": 0.9722222222222222,
+      "auroc": 0.9691358024691359,
+      "n_eval": 72,
+      "eval_hash": "sha256:20e4dec1b8225ce46aceae422df99fd84a9f7ee4cf32a54415aab9316163bcb6"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "neg_sp_en_trans",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.9583333333333334,
+      "f1": 0.9577464788732394,
+      "precision": 0.9714285714285714,
+      "recall": 0.9444444444444444,
+      "auroc": 0.9953703703703703,
+      "n_eval": 72,
+      "eval_hash": "sha256:242bd9b29e690cf82935955fa0cc3f0a06ec0b29317f0243f9068d83ebe0c83e"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "neg_sp_en_trans",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 282,
+    "n_test": 72,
+    "results": {
+      "accuracy": 0.9444444444444444,
+      "f1": 0.9428571428571428,
+      "precision": 0.9705882352941176,
+      "recall": 0.9166666666666666,
+      "auroc": 0.9930555555555555,
+      "n_eval": 72,
+      "eval_hash": "sha256:242bd9b29e690cf82935955fa0cc3f0a06ec0b29317f0243f9068d83ebe0c83e"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "larger_than",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "n_eval": 396,
+      "eval_hash": "sha256:dfff0237de05b45c8239ea3db1737da926b3b46da0969b663ae370d85b0611cc"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "larger_than",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.9040404040404041,
+      "f1": 0.9020618556701031,
+      "precision": 0.9210526315789473,
+      "recall": 0.8838383838383839,
+      "auroc": 0.9609351086623814,
+      "n_eval": 396,
+      "eval_hash": "sha256:dfff0237de05b45c8239ea3db1737da926b3b46da0969b663ae370d85b0611cc"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "smaller_than",
+    "classifier": "logistic_regression",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "n_eval": 396,
+      "eval_hash": "sha256:546af552622d90b1e54d88d3111f68aa201178f0458267da51ecbe393443e821"
+    }
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_short": "smollm2-1.7b",
+    "dataset": "smaller_than",
+    "classifier": "mass_mean",
+    "layers": "all",
+    "n_train": 1584,
+    "n_test": 396,
+    "results": {
+      "accuracy": 0.8838383838383839,
+      "f1": 0.8899521531100478,
+      "precision": 0.8454545454545455,
+      "recall": 0.9393939393939394,
+      "auroc": 0.9487424752576269,
+      "n_eval": 396,
+      "eval_hash": "sha256:546af552622d90b1e54d88d3111f68aa201178f0458267da51ecbe393443e821"
+    }
+  }
+]

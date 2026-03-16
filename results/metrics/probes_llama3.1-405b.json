@@ -1,0 +1,90 @@
+[
+  {
+    "model": "meta-llama/Llama-3.1-405B-Instruct",
+    "model_short": "llama3.1-405b",
+    "dataset": "cities",
+    "classifier": "logistic_regression",
+    "layers": [
+      55
+    ],
+    "layer_config": "layer_55",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.7,
+      "f1": 0.697986577181208,
+      "precision": 0.7027027027027027,
+      "recall": 0.6933333333333334,
+      "auroc": 0.7900444444444443,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "meta-llama/Llama-3.1-405B-Instruct",
+    "model_short": "llama3.1-405b",
+    "dataset": "cities",
+    "classifier": "mass_mean",
+    "layers": [
+      55
+    ],
+    "layer_config": "layer_55",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.6766666666666666,
+      "f1": 0.6040816326530613,
+      "precision": 0.7789473684210526,
+      "recall": 0.49333333333333335,
+      "auroc": 0.7377777777777779,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "meta-llama/Llama-3.1-405B-Instruct",
+    "model_short": "llama3.1-405b",
+    "dataset": "cities",
+    "classifier": "logistic_regression",
+    "layers": [
+      55,
+      80,
+      100
+    ],
+    "layer_config": "layers_55_80_100",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.6933333333333334,
+      "f1": 0.7012987012987013,
+      "precision": 0.6835443037974683,
+      "recall": 0.72,
+      "auroc": 0.7954888888888888,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  },
+  {
+    "model": "meta-llama/Llama-3.1-405B-Instruct",
+    "model_short": "llama3.1-405b",
+    "dataset": "cities",
+    "classifier": "mass_mean",
+    "layers": [
+      55,
+      80,
+      100
+    ],
+    "layer_config": "layers_55_80_100",
+    "n_train": 1196,
+    "n_test": 300,
+    "results": {
+      "accuracy": 0.6766666666666666,
+      "f1": 0.6339622641509434,
+      "precision": 0.7304347826086957,
+      "recall": 0.56,
+      "auroc": 0.7477333333333334,
+      "n_eval": 300,
+      "eval_hash": "sha256:3f0b47b96cdd9a79ff3d5513c02802ac1bf174cea00f4921e15613ecfdb15121"
+    }
+  }
+]
