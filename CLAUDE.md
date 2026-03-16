@@ -2,9 +2,9 @@
 
 ## What This Project Is
 
-`latent-lab` is a HuggingFace organization that publishes linear probes trained with `lmprobe`. The first batch of probes is trained on the **Geometry of Truth** benchmark datasets (Marks & Tegmark, 2023) across small open-weight models.
+`latent-lab` is a workspace for mechanistic interpretability experiments and a HuggingFace organization that publishes linear probes. The repo holds miscellaneous experiments — each self-contained in its own directory under `experiments/`.
 
-**The true goal is to stress-test `lmprobe`.** Publishing probes is the vehicle, not the destination. Every rough edge, confusing error, missing feature, or broken workflow you encounter should become a GitHub issue on `AlliedToasters/lmprobe`. The probes we publish are a useful byproduct; the issues we open are the real deliverable.
+A secondary goal is stress-testing `lmprobe`. When rough edges, confusing errors, or missing features are encountered, they should become GitHub issues on `AlliedToasters/lmprobe`.
 
 ## Repository: `AlliedToasters/lmprobe`
 
@@ -24,7 +24,7 @@ pip install -e ".[hub,plot]"
 
 Source: https://github.com/saprmarks/geometry-of-truth
 
-Clone this repo to get the datasets. They live in `datasets/` as CSVs with `statement` and `label` columns (1=true, 0=false).
+Datasets live in `data/got/` as parquet files with `statement` and `label` columns (1=true, 0=false). Original CSVs are backed up in `data/got_csv_backup/`.
 
 ### Curated datasets (clean, unambiguous — start here):
 
@@ -197,19 +197,33 @@ Use these labels when creating issues:
 
 ```
 latent-lab/
-├── CLAUDE.md              # This file
-├── scripts/
-│   ├── train_probes.py    # Main training script
-│   ├── generalization.py  # Cross-dataset evaluation
-│   ├── compare_models.py  # Cross-model comparison
-│   └── push_all.py        # Batch push to hub
-├── results/
-│   ├── metrics/           # JSON files with evaluation results
-│   └── figures/           # Layer importance plots, generalization matrices
-├── data/                  # Symlink or copy of geometry-of-truth/datasets/
-└── notebooks/
-    └── exploration.ipynb  # Interactive analysis
+├── CLAUDE.md
+├── experiments/
+│   ├── got_probes/           # GoT truth probe training & publishing
+│   │   ├── *.py              # Training/publishing scripts per model
+│   │   └── results/          # Metrics JSON files
+│   ├── got_reproduction/     # Reproducing Marks & Tegmark (2023)
+│   │   ├── reproduce_got*.py
+│   │   └── results/
+│   ├── lodo/                 # LODO benchmark datasets
+│   │   └── download_lodo.py
+│   └── <new_experiment>/     # ← add new experiments here
+│       ├── *.py
+│       └── results/
+├── data/                     # Gitignored — local datasets
+│   ├── got/                  # GoT datasets (parquet)
+│   ├── got_csv_backup/       # Original CSVs (safety backup)
+│   └── lodo/                 # LODO datasets (parquet)
+└── autoresearch/             # Gitignored — auto-generated experiment runs
 ```
+
+## Adding a New Experiment
+
+1. Create a directory: `experiments/<experiment_name>/`
+2. Put scripts and notebooks directly in that directory
+3. Save results to `experiments/<experiment_name>/results/`
+4. Keep experiments self-contained — each directory should make sense on its own
+5. Commit scripts and results; data goes in `data/` (gitignored)
 
 ## Key References
 
